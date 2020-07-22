@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <h1>Juno x ecobee: Pair Programming Exercise</h1>
       <HomeContainer />
+      
     </div>
   );
 }

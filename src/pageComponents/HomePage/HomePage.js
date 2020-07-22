@@ -14,7 +14,8 @@ const HomePage = (props) => {
       <div className="home-page-content">
         <div className="card-container">
           {movies.map((movie) => (
-            <Card key={movie.id} movie={movie} onClick={() => onCardClick(movie.id)}/>
+            <Card key={movie.id} movie={movie} onClick={() => onCardClick(movie)}/>
+            
           ))}
         </div>
       </div>
